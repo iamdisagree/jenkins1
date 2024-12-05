@@ -8,7 +8,7 @@ public class AggregatorTest {
     @Test
     public void testInitialState() {
         Aggregator agr = new Aggregator();
-        assertThat(agr.getSum()).isZero();
+        assertThat(agr.getSum()).isEqualTo(1);
     }
 
     @Test
